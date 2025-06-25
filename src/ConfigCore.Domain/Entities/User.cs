@@ -1,8 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using ConfigCore.Domain.Entities.Interfaces;
-using Microsoft.EntityFrameworkCore;
-
-namespace ConfigCore.Domain.Entities;
+﻿namespace ConfigCore.Domain.Entities;
 
 [Index(nameof(Email), IsUnique = true)]
 public sealed class User : IEntity

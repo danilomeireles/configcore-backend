@@ -1,9 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using ConfigCore.Domain.Entities.Interfaces;
-using Microsoft.EntityFrameworkCore;
-
-namespace ConfigCore.Domain.Entities;
+﻿namespace ConfigCore.Domain.Entities;
 
 [Index(nameof(ApplicationId), nameof(Name), IsUnique = true)]
 public sealed class ServiceAccount : IEntity

@@ -1,5 +1,3 @@
-using System.Text.Json.Serialization;
-
 namespace ConfigCore.Domain.Entities.EnumEntities;
 
 [JsonConverter(typeof(JsonStringEnumConverter))]

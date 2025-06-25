@@ -1,8 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using ConfigCore.Domain.Entities.Interfaces;
-using Microsoft.EntityFrameworkCore;
-
-namespace ConfigCore.Domain.Entities;
+﻿namespace ConfigCore.Domain.Entities;
 
 [Index(nameof(Name), IsUnique = true)]
 public sealed class Application : IEntity

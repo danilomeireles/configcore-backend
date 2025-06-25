@@ -1,9 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using ConfigCore.Domain.Entities.EnumEntities;
-using ConfigCore.Domain.Entities.Interfaces;
-using Microsoft.EntityFrameworkCore;
-
 namespace ConfigCore.Domain.Entities;
 
 [Index(nameof(ApplicationId), nameof(EnvironmentTypeId), nameof(Key), IsUnique = true)]

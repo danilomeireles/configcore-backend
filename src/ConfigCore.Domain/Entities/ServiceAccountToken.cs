@@ -1,10 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using ConfigCore.Domain.Entities.EnumEntities;
-using ConfigCore.Domain.Entities.Interfaces;
-using Microsoft.EntityFrameworkCore;
-
-namespace ConfigCore.Domain.Entities;
+﻿namespace ConfigCore.Domain.Entities;
 
 [Index(nameof(TokenHash), nameof(EnvironmentTypeId), IsUnique = true)]
 public sealed class ServiceAccountToken  : IEntity

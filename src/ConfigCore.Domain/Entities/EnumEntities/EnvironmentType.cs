@@ -1,8 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using ConfigCore.Domain.Entities.Interfaces;
-
-namespace ConfigCore.Domain.Entities.EnumEntities;
+﻿namespace ConfigCore.Domain.Entities.EnumEntities;
 
 public sealed class EnvironmentType : IEnumEntity
 {

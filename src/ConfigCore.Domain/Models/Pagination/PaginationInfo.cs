@@ -12,7 +12,7 @@ public abstract class PaginationInfo
 
     public int TotalItems { get; set; }
     
-    public bool HasPreviousPage => (CurrentPageNumber > 1);
+    public bool HasPreviousPage => CurrentPageNumber > 1;
 
-    public bool HasNextPage => (CurrentPageNumber < TotalPages);
+    public bool HasNextPage => CurrentPageNumber < TotalPages;
 }
